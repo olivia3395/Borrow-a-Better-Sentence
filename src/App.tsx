@@ -389,7 +389,7 @@ function MainApp({ onBack, lang }: { onBack: () => void; lang: Lang }) {
                         <img
                           src={writer.avatarUrl}
                           alt=""
-                          className="w-full h-full object-cover grayscale mix-blend-multiply"
+                          className="w-full h-full object-contain grayscale mix-blend-multiply scale-125"
                           referrerPolicy="no-referrer"
                         />
                       </div>
@@ -633,7 +633,7 @@ function MainApp({ onBack, lang }: { onBack: () => void; lang: Lang }) {
                       <img
                         src={selectedProfile.avatarUrl}
                         alt={selectedProfile.name}
-                        className="w-full h-full object-cover grayscale opacity-90 contrast-125 mix-blend-multiply"
+                        className="w-full h-full object-contain grayscale opacity-90 contrast-125 mix-blend-multiply scale-110"
                         referrerPolicy="no-referrer"
                       />
                     </div>

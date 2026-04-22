@@ -26,7 +26,7 @@ export async function rewriteSentence(
   `;
 
   const response = await ai.models.generateContent({
-    model: "gemini-3.1-pro-preview",
+    model: "gemini-3.1-flash",
     contents: `User sentence: "${input}"\n\nRewrite this sentence as ${writer.name}.`,
     config: {
       systemInstruction,
